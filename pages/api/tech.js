@@ -84,6 +84,7 @@ export default (req, res) => {
     console.log(req.body);
     const input = req.body;
     const result = fixedWidthParser.parse(input);
+    // todo: make sure to test for empty
     res.statusCode = 200;
   //  res.json({ name: 'John Doei', inf: JSON.stringify(req.body)});
     res.json({ name: 'John Doei', inf: result});
