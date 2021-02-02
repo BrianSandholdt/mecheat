@@ -62,7 +62,7 @@ const fixedWidthParser = new FixedWidthParser([
     width: 11,
   },
 ]);
- 
+// hack
 /*const input = `1234567894     0100          50                   C&1                           
 0143000036000001002  0000393687-                  C&3-           
 0143000036000002002  0000016041-                  C&3-           
