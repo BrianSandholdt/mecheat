@@ -4,7 +4,7 @@ export default (req, res) => {
     console.log(req.body);
     const identNumber = Number(12345678901234);
     const creditorNumber = Number(12345678);
-    //const FI71 = "+71<"+identNumber+" +"+creditorNumber+"<";
+    
     const FI71 = `+71<${identNumber} +${creditorNumber}<`;
 
     const identArr = Array.from(String(identNumber), Number);
