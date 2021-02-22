@@ -15,5 +15,5 @@ export default (req, res) => {
 
     res.statusCode = 200;
     //res.json({ fi71: String(identSums)});
-    res.json({ fi71: identSums.join('')}); // showing idenSums as a concatenated string
+    res.json({ fi71: identSums.join('')}); // showing identSums as a concatenated string
   }
