@@ -9,8 +9,8 @@ export default (req, res) => {
 
     const identArr = Array.from(String(identNumber), Number);
 
-    const identSums = identArr.map((curElement, index) => {
-        return ((index % 2) == 0) ? curElement : (curElement * 2) });
+    const identSums = identArr.map((currentElement, index) => {
+        return ((index % 2) == 0) ? currentElement : (currentElement * 2) });
 
 
     res.statusCode = 200;
